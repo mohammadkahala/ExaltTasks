@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+}
+
+main {
+    width: 84%;
+    margin-left: 16%;
+    background: url("../images/right_panel_texture.png") repeat;
+    height: 100%;
+    padding-top: 50px;
+}
+
+main h1{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+main header h1{
+    color: orange;
+    margin-bottom: 10px;
+}
+
+main header p{
+    margin-bottom: 10px;
+}
+
+main p{
+    font-size: 17px;
+}
+
+main header{
+    margin-left: 7%;
+    text-align: center;
+    width: 50%;
+}
+
+main section{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+    width: 250px;
+}
+
+main section h1{
+    text-align: center;
+    margin: 10px 0;
+}

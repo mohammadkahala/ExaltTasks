@@ -1,0 +1,50 @@
+#left_menu{
+    display: block;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 16%;
+    background: url("../images/left_panel_texture .png") repeat;
+}
+
+#left_menu nav img,#left_menu nav ul{
+    display: block;
+    width: 50%;
+    margin: 50px auto 100px;
+    text-align: center;
+}
+
+#left_menu nav a{
+    display: block;
+    margin: 20px auto;
+    color: white;
+    font-size: 16px;
+}
+
+.gallery_drop_down {
+    display: none;
+    visibility: hidden;
+}
+
+#left_menu footer{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#left_menu footer p{
+    color: #666666;
+}
+
+.social-icons{
+    margin: 10px 2px;
+    width: 15px;
+}
+
+.down-arrow{
+    font-size: 10px;
+}
